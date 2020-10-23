@@ -6,7 +6,15 @@
         "../sass/_fonts.scss",
         "../sass/_variables.sass",
         "../sass/_normalize.scss",
-        "../sass/_settings.sass"
+        "../sass/_settings.sass",
+        "../sass/_header.sass",
+        "../sass/_hero.sass",
+        "../sass/_new-collection.sass",
+        "../sass/_trending-items.sass",
+        "../sass/_reviews.sass",
+        "../sass/_stories.sass",
+        "../sass/_subscribe.sass",
+        "../sass/_footer.sass"
     ],
     "names": [],
     "file": "style.css"
