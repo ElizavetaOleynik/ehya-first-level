@@ -1,0 +1,28 @@
+@font-face {
+ font-family: 'HK Grotesk';
+ src: url(../fonts/hk-grotesk.regular.ttf),
+ url(../fonts/HKGrotesk-Regular.woff),
+ url(../fonts/hk-grotesk.regular.woff2);
+ font-weight: 400;
+ font-display: swap;
+}
+@font-face {
+ font-family: 'HK Grotesk';
+ src: url(../fonts/hk-grotesk.semibold.ttf),
+ url(../fonts/HKGrotesk-SemiBold.woff),
+ url(../fonts/hk-grotesk.semibold.woff2);
+ font-weight: 600;
+ font-display: swap;
+}
+@font-face {
+ font-family: 'HK Grotesk';
+ src: url(../fonts/hk-grotesk.bold.ttf),
+ url(../fonts/HKGrotesk-Bold.woff),
+ url(../fonts/hk-grotesk.bold.woff2);
+ font-weight: 700;
+ font-display: swap;
+}
+
+@mixin grotesk {
+	font-family: 'HK Grotesk', sans-serif
+}
