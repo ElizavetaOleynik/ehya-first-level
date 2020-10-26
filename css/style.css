@@ -609,8 +609,12 @@ button:hover {
   }
 }
 
+.hero {
+  padding-top: 36px;
+}
+
 .hero__container {
-  width: 1280px;
+  max-width: 1280px;
   margin: 0 auto;
 }
 
@@ -618,8 +622,9 @@ button:hover {
   background-image: url(../img/hero/hero-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center center;
   border-radius: 5px;
-  padding: 62px 0 46px 107px;
+  padding: 67px 0 46px 107px;
 }
 
 .hero__text {
@@ -632,14 +637,15 @@ button:hover {
   font-size: 14px;
   line-height: 20px;
   text-align: center;
+  text-transform: uppercase;
   color: #36B37E;
   background: #D6E5DE;
   border-radius: 2000px;
 }
 
 .hero__title {
-  margin-top: 28px;
-  margin-bottom: 28px;
+  margin-top: 38px;
+  margin-bottom: 26px;
   max-width: 474px;
   font-family: 'HK Grotesk', sans-serif;
   font-weight: 700;
@@ -650,7 +656,7 @@ button:hover {
 }
 
 .hero__desc {
-  margin-bottom: 52px;
+  margin-bottom: 50px;
   max-width: 581px;
   font-weight: 400;
   font-size: 20px;
@@ -659,7 +665,7 @@ button:hover {
 }
 
 .hero__button {
-  padding: 15px 40px;
+  padding: 15.5px 40px;
   font-weight: 700;
   font-size: 18px;
   line-height: 25px;
@@ -686,7 +692,7 @@ button:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-right: 30px;
+  margin-right: 28px;
 }
 
 .hero__feature-img {
