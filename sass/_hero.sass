@@ -10,9 +10,11 @@
   background-position: center center
   border-radius: 5px
   padding: 67px 0 46px 107px
- &__text
+ &__text-block
   max-width: 652px
  &__tag
+  position: relative
+  z-index: 2
   padding: 6px 16px
   font-weight: 600
   font-size: 14px
@@ -20,8 +22,18 @@
   text-align: center
   text-transform: uppercase
   color: #36B37E
-  background: #D6E5DE
-  border-radius: 2000px
+  &::before
+   position: absolute
+   z-index: 0
+   left: 50%
+   top: 50%
+   transform: translate(-50%, -50%)
+   content: ''
+   width: 100%
+   height: 100%
+   background: #36B37E
+   opacity: 0.1
+   border-radius: 2000px
  &__title
   margin-top: 38px
   margin-bottom: 26px
@@ -57,6 +69,7 @@
   align-items: center
   margin-right: 28px
   &-img
+   width: 36px
    margin-right: 8px
   &-text
    +grotesk
@@ -65,3 +78,90 @@
    line-height: 20px
    letter-spacing: 0.2px
    color: #183B56
+
+@media ( max-width: 1290px)
+ .hero
+  &__container
+   max-width: 94.79%
+
+@media ( max-width: 992px)
+ .hero
+  padding-top: 20px
+  &__body
+   padding: 40px 0 32px 28px
+   background-image: url(../img/hero/hero-bg-tablet.jpg)
+  &__title
+   margin-top: 32px
+   margin-bottom: 18px
+   max-width: 407px
+   font-size: 48px
+   line-height: 60px
+  &__desc
+   margin-bottom: 36px
+   max-width: 400px
+   font-weight: 400
+   font-size: 18px
+   line-height: 32px
+  &__button
+   margin-bottom: 40px
+  &__feature
+   margin-right: 18px
+
+@media ( max-width: 576px)
+ .hero
+  padding-top: 22px
+  &__container
+   max-width: 100%
+  &__body
+   padding: 381px 20px 36px 20px
+   background-image: url(../img/hero/hero-bg-mob.jpg)
+   background-position: center top
+   border-radius: 0
+  &__text-block
+   display: flex
+   text-align: center
+   align-items: center
+   flex-direction: column
+  &__tag
+   padding: 2px 26px
+   max-width: 196px
+  &__title
+   margin-top: 20px
+   margin-bottom: 18px
+   font-size: 32px
+   line-height: 40px
+  &__desc
+   margin-bottom: 24px
+   font-size: 16px
+   line-height: 28px
+  &__button
+   margin-bottom: 24px
+   padding: 13px 49px
+   font-size: 16px
+   line-height: 22px
+  &__features
+   max-width: 261px
+   flex-wrap: wrap
+   justify-content: center
+  &__feature
+   margin-right: 0
+   &:first-child
+    margin-right: 16px
+   &:last-child
+    margin-top: 16px
+   &-img
+    width: 24px
+
+
+
+   
+
+
+
+
+
+  
+
+
+
+
