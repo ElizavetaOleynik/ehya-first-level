@@ -1061,4 +1061,110 @@ button:hover {
 .trending {
   padding-top: 145px;
 }
+
+.trending__container {
+  max-width: 1135px;
+  margin: 0 auto;
+}
+
+.trending__heading {
+  margin-bottom: 48px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.trending__title {
+  font-family: 'HK Grotesk', sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  letter-spacing: 0.2px;
+  color: #183B56;
+}
+
+.trending__categories-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.trending__categories-item {
+  margin-right: 38px;
+}
+
+.trending__categories-item:last-child {
+  margin-right: 0;
+}
+
+.trending__categories-link {
+  font-size: 18px;
+  line-height: 25px;
+  color: #5A7184;
+}
+
+.trending__cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.trending__card {
+  margin-bottom: 50px;
+  -ms-flex-preferred-size: 23%;
+      flex-basis: 23%;
+}
+
+.trending__card-img {
+  margin-bottom: 20px;
+  overflow: hidden;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 350px;
+  border-radius: 8px;
+}
+
+.trending__card-title {
+  margin-bottom: 3px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.2px;
+  color: #183B56;
+  font-family: 'HK Grotesk', sans-serif;
+}
+
+.trending__card-buy {
+  padding: 0 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.trending__card-price {
+  font-size: 20px;
+  line-height: 36px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #5A7184;
+}
 /*# sourceMappingURL=style.css.map */
