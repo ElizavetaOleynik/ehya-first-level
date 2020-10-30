@@ -1099,7 +1099,7 @@ button:hover {
   margin-right: 38px;
 }
 
-.trending__categories-item:last-child {
+.trending__categories:last-child {
   margin-right: 0;
 }
 
@@ -1166,5 +1166,39 @@ button:hover {
       -ms-flex-align: center;
           align-items: center;
   color: #5A7184;
+}
+
+.trending__button {
+  padding-top: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-preferred-size: 23%;
+      flex-basis: 23%;
+  height: 350px;
+  background-color: #1565D8;
+  border-radius: 8px;
+}
+
+.trending__button-img {
+  margin-bottom: 25px;
+}
+
+.trending__button-text {
+  max-width: 112px;
+  font-family: 'HK Grotesk', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
 }
 /*# sourceMappingURL=style.css.map */
